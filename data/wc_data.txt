@@ -1,0 +1,54 @@
+ROUND 1
+
+russia: 5 saudi: 0
+egypt: 0 uruguay: 1
+morocco: 0 iran: 1
+portugal: 3 spain: 3
+france: 2 australia: 1
+argentina: 1 iceland: 1
+peru: denmark:
+croatia: nigeria:
+costa: serbia:
+germany: mexico:
+brazil: switzerland:
+sweden: korea:
+belgium: panama:
+tunisia: england:
+colombia: japan:
+poland: senegal:
+
+ROUND 2
+russia: egypt:
+portugal: morocco:
+uruguay: saudi:
+iran: spain:
+denmark: australia:
+france: peru:
+argentina: croatia:
+brazil: costa:
+nigeria: iceland:
+serbia: switzerland:
+belgium: tunisia:
+korea: mexico:
+germany: sweden:
+england: panama:
+japan: senegal:
+poland: colombia:
+
+ROUND 3
+saudi: egypt:
+uruguay: russia:
+iran: portugal:
+spain: morocco:
+australia: peru:
+denmark: france:
+nigeria: argentina:
+iceland: croatia:
+mexico: sweden:
+korea: germany:
+switzerland: costa:
+serbia: brazil:
+senegal: colombia:
+japan: poland:
+england: belgium:
+panama: tunisia:
