@@ -1,2 +1,4 @@
-hannah: morocco england argentina
-vader: germany
+Hannah: Morocco England Argentina
+Alex: Denmark Poland Senegal
+Jason: Belgium Spain Saudi_Arabia
+Vader: Germany

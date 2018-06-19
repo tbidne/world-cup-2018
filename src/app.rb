@@ -11,8 +11,7 @@ end
 
 def inc_score(win_map, team_name, points)
   if win_map.key? team_name
-    curr_score = win_map[team_name]
-    win_map[team_name] = curr_score + points
+    win_map[team_name] += points
   else
     win_map[team_name] = points
   end
@@ -21,8 +20,8 @@ end
 def parse_scores
   win_map = {}
 
-  File.open('../data/wc_data.txt').each do |line|
-    arr = line.scan(/([a-z]*):\s([0-9])\s([a-z]*):\s([0-9])/)
+  File.open('../data/results.txt').each do |line|
+    arr = line.scan(/([a-zA-Z_]*):\s([0-9])\s([a-zA-Z_]*):\s([0-9])/)
 
     next if arr.empty?
 
@@ -49,7 +48,7 @@ def parse_owners
   owners = []
 
   File.open('../data/owners.txt').each do |line|
-    arr = line.scan(/([a-zA-Z]*):\s([a-z\s]*)/)
+    arr = line.scan(/([a-zA-Z]*):\s([a-zA-Z_\s]*)/)
 
     next if arr.empty?
 
@@ -67,8 +66,26 @@ def calc_score(win_map, owners)
   end
 end
 
+def write_results(owners)
+  owners.sort_by! { |o| [o.score, o.score] }.reverse!
+
+  output = "# World Cup 2018\n\n"
+  output << "To update, update `data/results.txt` and run `src/app.rb`.\n\n"
+  output << "##### Results as of `#{Time.now}`:\n\n"
+
+  output << "| Name | Teams | Score\n| :- | - | -\n"
+  owners.each do |o|
+    teams = ""
+    o.teams.each do |t|
+      teams << "![](flags/#{t}.png \"#{t.gsub(/_/, ' ')}\") "
+    end
+    output << "| #{o.name} | #{teams} | #{o.score} |\n"
+  end
+  File.open('../README.md', 'w') { |file| file.write(output) }
+end
+
 win_map = parse_scores
 owners = parse_owners
 
 calc_score(win_map, owners)
-puts owners.inspect
+write_results(owners)
