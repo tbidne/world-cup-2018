@@ -23,9 +23,9 @@ Belgium: 3 Panama: 0
 Tunisia: 1 England: 2
 
 Tuesday 6/19
-Colombia: Japan:
-Poland: Senegal:
-Russia: Egypt:
+Colombia: 1 Japan: 2
+Poland: 2 Senegal: 1
+Russia: 3 Egypt: 1
 
 Wednesday 6/20
 Portugal: Morocco:
