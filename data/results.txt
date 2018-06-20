@@ -25,7 +25,7 @@ Tunisia: 1 England: 2
 Tuesday 6/19
 Colombia: 1 Japan: 2
 Poland: 2 Senegal: 1
-Russia: 3 Egypt: 1
+Russia: Egypt:
 
 Wednesday 6/20
 Portugal: Morocco:
