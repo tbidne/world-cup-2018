@@ -10,11 +10,7 @@ class Owner
 end
 
 def inc_score(win_map, team_name, points)
-  if win_map.key? team_name
-    win_map[team_name] += points
-  else
-    win_map[team_name] = points
-  end
+  win_map[team_name] = (win_map[team_name] || 0) + points
 end
 
 def parse_scores
