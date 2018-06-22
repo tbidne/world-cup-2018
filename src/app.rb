@@ -10,35 +10,24 @@ class Owner
 end
 
 def inc_score(win_map, team_name, points)
-  if win_map.key? team_name
-    win_map[team_name] += points
-  else
-    win_map[team_name] = points
-  end
+  win_map[team_name] = (win_map[team_name] || 0) + points
 end
 
 def parse_scores
   win_map = {}
 
   File.open('../data/results.txt').each do |line|
-    arr = line.scan(/([a-zA-Z_]*):\s([0-9])\s([a-zA-Z_]*):\s([0-9])/)
 
-    next if arr.empty?
+    /(?<team1>[a-zA-Z_]*):\s(?<score1>[0-9])\s\
+      (?<team2>[a-zA-Z_]*):\s(?<score2>[0-9])/x =~ line
 
-    team_one = arr[0][0]
-    score_one = arr[0][1].to_i
-    team_two = arr[0][2]
-    score_two = arr[0][3].to_i
-
-    if score_one > score_two
-      inc_score(win_map, team_one, 2)
-      inc_score(win_map, team_two, 0)
-    elsif score_one < score_two
-      inc_score(win_map, team_two, 2)
-      inc_score(win_map, team_one, 0)
+    if score1.to_i > score2.to_i
+      inc_score(win_map, team1, 2)
+    elsif score1.to_i < score2.to_i
+      inc_score(win_map, team2, 2)
     else
-      inc_score(win_map, team_one, 1)
-      inc_score(win_map, team_two, 1)
+      inc_score(win_map, team1, 1)
+      inc_score(win_map, team2, 1)
     end
   end
   win_map
@@ -48,11 +37,9 @@ def parse_owners
   owners = []
 
   File.open('../data/owners.txt').each do |line|
-    arr = line.scan(/([a-zA-Z]*):\s([a-zA-Z_\s]*)/)
+    /(?<name>[a-zA-Z]*):\s(?<teams>[a-zA-Z_\s]*)/ =~ line
 
-    next if arr.empty?
-
-    o = Owner.new(arr[0][0], arr[0][1].split(' '), 0)
+    o = Owner.new(name, teams.split(' '), 0)
     owners << o
   end
   owners
