@@ -38,17 +38,17 @@ France: 1 Peru:o
 Argentina: 0 Croatia: 3
 
 Friday 6/22
-Brazil: Coasta_Rica:
-Nigeria: Iceland:
-Serbia: Switzerland:
+Brazil: 2 Coasta_Rica: 0
+Nigeria: 2 Iceland: 0
+Serbia: 1 Switzerland: 2
 
 Saturday 6/23
-Belgium: Tunisia:
-South_Korea: Mexico:
-Germany: Sweden:
+Belgium: 5 Tunisia: 2
+South_Korea: 1 Mexico: 2
+Germany: 2 Sweden: 1
 
 Sunday 6/24
-England: Panama:
+England: 6 Panama: 1
 Japan: Senegal:
 Poland: Colombia:
 
