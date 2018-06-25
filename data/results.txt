@@ -49,14 +49,14 @@ Germany: 2 Sweden: 1
 
 Sunday 6/24
 England: 6 Panama: 1
-Japan: Senegal:
-Poland: Colombia:
+Japan: 2 Senegal: 2
+Poland: 0 Colombia: 3
 
 Monday 6/25
-Saudi_Arabia: Egypt:
-Uruguay: Russia:
-Iran: Portugal:
-Spain: Morocco:
+Saudi_Arabia: 2 Egypt: 1
+Uruguay: 3 Russia: 0
+Iran: 1 Portugal: 1
+Spain: 2 Morocco: 2
 
 Tuesday 6/26
 Australia: Peru:
