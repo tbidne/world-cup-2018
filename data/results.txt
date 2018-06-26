@@ -59,10 +59,10 @@ Iran: 1 Portugal: 1
 Spain: 2 Morocco: 2
 
 Tuesday 6/26
-Australia: Peru:
-Denmark: France:
-Nigeria: Argentina:
-Iceland: Croatia:
+Australia: 0 Peru: 2
+Denmark: 0 France: 0
+Nigeria: 1 Argentina: 2
+Iceland: 1 Croatia: 2
 
 Wednesday 6/27
 Mexico: Sweden:
