@@ -74,4 +74,4 @@ Thursday 6/28
 Senegal: 0 Colombia: 1
 Japan: 0 Poland: 1
 England: 0 Belgium: 1
-Panama: 1  Tunisia: 2
+Panama: 1 Tunisia: 2

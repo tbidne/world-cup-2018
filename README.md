@@ -2,7 +2,7 @@
 
 To update, update `data/results.txt` and run `src/app.rb`.
 
-##### Results as of `2018-06-29 07:36:25 -0400`:
+##### Results as of `2018-06-29 09:17:46 -0400`:
 
 | Name | Teams | Score
 | :- | - | -
@@ -15,4 +15,4 @@ To update, update `data/results.txt` and run `src/app.rb`.
 | Hannah | ![](flags/Morocco.png "Morocco") ![](flags/England.png "England") ![](flags/Argentina.png "Argentina")  | 8 |
 | Melissa | ![](flags/Serbia.png "Serbia") ![](flags/Iran.png "Iran") ![](flags/Panama.png "Panama")  | 5 |
 | Marcia | ![](flags/Germany.png "Germany") ![](flags/Peru.png "Peru") ![](flags/Egypt.png "Egypt")  | 4 |
-| Tanelle | ![](flags/Tunisia.png "Tunisia") ![](flags/Australia.png "Australia") ![](flags/Costa_Rica.png "Costa Rica")  | 1 |
+| Tanelle | ![](flags/Tunisia.png "Tunisia") ![](flags/Australia.png "Australia") ![](flags/Costa_Rica.png "Costa Rica")  | 3 |
