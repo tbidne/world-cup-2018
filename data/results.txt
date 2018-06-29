@@ -65,13 +65,13 @@ Nigeria: 1 Argentina: 2
 Iceland: 1 Croatia: 2
 
 Wednesday 6/27
-Mexico: Sweden:
-South_Korea: Germany:
-Switzerland: Coasta_Rica:
-Serbia: Brazil:
+Mexico: 0 Sweden: 3
+South_Korea: 2 Germany: 0
+Switzerland: 2 Coasta_Rica: 2
+Serbia: 0 Brazil: 2
 
 Thursday 6/28
-Senegal: Colombia:
-Japan: Poland:
-England: Belgium:
-Panama: Tunisia:
+Senegal: 0 Colombia: 1
+Japan: 0 Poland: 1
+England: 0 Belgium: 1
+Panama: 1  Tunisia: 2
