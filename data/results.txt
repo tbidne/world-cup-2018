@@ -75,3 +75,7 @@ Senegal: 0 Colombia: 1
 Japan: 0 Poland: 1
 England: 0 Belgium: 1
 Panama: 1 Tunisia: 2
+
+Saturday 6/30
+Argentina: 3 France: 4
+Portugal: 1 Uruguay: 2
