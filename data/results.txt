@@ -79,3 +79,7 @@ Panama: 1 Tunisia: 2
 Saturday 6/30
 Argentina: 3 France: 4
 Portugal: 1 Uruguay: 2
+
+Sunday 7/1
+Spain: 3 Russia: 4
+Croatia: 3 Denmark: 2
