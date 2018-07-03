@@ -83,3 +83,11 @@ Portugal: 1 Uruguay: 2
 Sunday 7/1
 Spain: 3 Russia: 4
 Croatia: 3 Denmark: 2
+
+Monday 7/2
+Brazil: 2 Mexico: 0
+Belgium: 3 Japan: 2
+
+Tuesday 7/3
+Sweden: Switzerland:
+Colombia: England:
