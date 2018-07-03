@@ -89,5 +89,5 @@ Brazil: 2 Mexico: 0
 Belgium: 3 Japan: 2
 
 Tuesday 7/3
-Sweden: Switzerland:
-Colombia: England:
+Sweden: 1 Switzerland: 0
+Colombia: 3 England: 4
