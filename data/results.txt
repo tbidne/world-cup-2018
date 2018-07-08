@@ -91,3 +91,11 @@ Belgium: 3 Japan: 2
 Tuesday 7/3
 Sweden: 1 Switzerland: 0
 Colombia: 3 England: 4
+
+Friday 7/6
+Uruguay: 0 France: 2
+Brazil: 1 Belgium: 2
+
+Saturday 7/7
+Sweden: 0 England: 2
+Russia: 3 Croatia: 4
