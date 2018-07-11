@@ -2,7 +2,7 @@
 
 To update, update `data/results.txt` and run `src/app.rb`.
 
-##### Results as of `2018-07-08 09:41:01 -0400`:
+##### Results as of `2018-07-10 21:07:27 -0400`:
 
 | Name | Teams | Score
 | :- | - | -
