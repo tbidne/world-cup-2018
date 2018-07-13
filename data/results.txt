@@ -99,3 +99,9 @@ Brazil: 1 Belgium: 2
 Saturday 7/7
 Sweden: 0 England: 2
 Russia: 3 Croatia: 4
+
+Tuesday 7/10
+France: 1 Belgium: 0
+
+Wednesday 7/11
+Croatia: 2 England: 1
