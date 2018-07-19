@@ -2,11 +2,11 @@
 
 To update, update `data/results.txt` and run `src/app.rb`.
 
-##### Results as of `2018-07-13 14:57:30 -0400`:
+##### Results as of `2018-07-19 18:53:47 -0400`:
 
 | Name | Teams | Score
 | :- | - | -
-| Vader | ![](flags/Iceland.png "Iceland") ![](flags/France.png "France") ![](flags/Nigeria.png "Nigeria") ![](flags/Brazil.png "Brazil") ![](flags/Portugal.png "Portugal")  | 23 |
+| Vader | ![](flags/Iceland.png "Iceland") ![](flags/France.png "France") ![](flags/Nigeria.png "Nigeria") ![](flags/Brazil.png "Brazil") ![](flags/Portugal.png "Portugal")  | 25 |
 | Dan | ![](flags/Sweden.png "Sweden") ![](flags/Croatia.png "Croatia") ![](flags/Japan.png "Japan")  | 21 |
 | Carolyn | ![](flags/Colombia.png "Colombia") ![](flags/Uruguay.png "Uruguay") ![](flags/Russia.png "Russia")  | 18 |
 | Jason | ![](flags/Belgium.png "Belgium") ![](flags/Spain.png "Spain") ![](flags/Saudi_Arabia.png "Saudi Arabia")  | 16 |

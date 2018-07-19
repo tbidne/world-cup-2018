@@ -105,3 +105,6 @@ France: 1 Belgium: 0
 
 Wednesday 7/11
 Croatia: 2 England: 1
+
+Sunday 7/15
+Croatia: 2 France: 4
